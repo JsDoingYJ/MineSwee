@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/game/pic">
+        <file>bomb.png</file>
+        <file>flag.png</file>
+    </qresource>
+</RCC>

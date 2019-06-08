@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget"/>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>400</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>游戏</string>
+    </property>
+    <addaction name="gameStart"/>
+    <addaction name="gameEnd"/>
+   </widget>
+   <widget class="QMenu" name="menu_9_9_10_15_10_17">
+    <property name="title">
+     <string>难度</string>
+    </property>
+    <addaction name="action_9_9"/>
+    <addaction name="action_10_15"/>
+    <addaction name="action_10_17"/>
+   </widget>
+   <widget class="QMenu" name="menu_2">
+    <property name="title">
+     <string>其他</string>
+    </property>
+    <addaction name="author"/>
+    <addaction name="version"/>
+   </widget>
+   <widget class="QMenu" name="menuClose">
+    <property name="title">
+     <string>关闭</string>
+    </property>
+   </widget>
+   <addaction name="menu"/>
+   <addaction name="menu_9_9_10_15_10_17"/>
+   <addaction name="menu_2"/>
+   <addaction name="menuClose"/>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="action_9_9">
+   <property name="text">
+    <string>初级: 9*9 </string>
+   </property>
+  </action>
+  <action name="action_10_15">
+   <property name="text">
+    <string>中级: 10*15 </string>
+   </property>
+  </action>
+  <action name="action_10_17">
+   <property name="text">
+    <string>高级: 10*17</string>
+   </property>
+  </action>
+  <action name="gameStart">
+   <property name="text">
+    <string>开始/重新开始</string>
+   </property>
+  </action>
+  <action name="gameEnd">
+   <property name="text">
+    <string>结束本局游戏</string>
+   </property>
+  </action>
+  <action name="author">
+   <property name="text">
+    <string>作者：游家</string>
+   </property>
+  </action>
+  <action name="version">
+   <property name="text">
+    <string>版本:v1.0 </string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
